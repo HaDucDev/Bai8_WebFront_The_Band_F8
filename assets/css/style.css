@@ -6,3 +6,60 @@
     border: 0;
     box-sizing: border-box;
 }
+/* làm từ ngoài vào trong và từ trên xuống dưới
+làm từ tônge quan đến chi tiết */
+/* 1.vị trí
+2.kích thức
+3.màu sắc
+4.kiểu dáng(tròn, vuông)
+ */
+
+#main{
+    /* width: 100%; ok r ne ko can. mac dinh bang main*/
+}
+#header{
+    height: 46px;
+    background-color: #000;
+    /* float: left; */
+
+}
+#nav{
+    float: left;
+}
+html{
+    font-family: Helvetica, Arial, sans-serif;
+}
+#nav li{
+    display: inline-block;
+    /* inline la tren 1 hang, va giu tinh chat khoi */
+}
+/* di theo cap */
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    /* can giua */
+    padding: 0 24px;
+    display: inline-block;
+
+}
+/* khi cham vao doi mau font vs chu */
+
+#nav li :hover {
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#nav .subnav{
+    display: none;
+}
+#slider{
+
+}
+#content{
+
+}
+#footer{
+
+}
